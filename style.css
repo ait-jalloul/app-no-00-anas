@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #f2f2f2;
+	font-family: "Lato",Arial,sans-serif;
+}
+.divapp01{
+	background-color: yellow;
+	height: 200px;
+	width: 300px;
+	text-align: center;
+	position: relative;
+	margin-bottom: -200px;
+	margin-left: 40%;
+}
+.texth1{
+	height: 50px;
+	width: 200px;
+	position: absolute;
+	margin: 75px 50px;
+}
+.social{
+	position: relative;
+	float: right;
+}
+
+.social ul li {
+	display: inline-block;
+}
+.social ul li .fa-brands{
+	color: gray;
+	line-height: 40px;
+	font-size: 15px;
+	height: 45px;
+	width: 45px;
+	border: solid 1px rgba(241,241,241,1.00);
+	border-radius: 50%;
+}
+.social ul li .fa-brands:hover{
+	background-color: #f35586;
+	color: white;
+}
+.social ul li a{
+	position: relative;
+	text-align: center;
+}
+.social ul li .fa-facebook-f{
+	position: absolute;
+	margin-left: 25px;
+	margin-top: -11px;
+}
+.container{
+	width: 800px;
+	height: 500px;
+	background-color: aqua;
+	position: static;
+	margin: 200px auto;
+}
+.sign-in{
+	width: 400px;
+	height: 500px;
+	background-color: white;
+	position: relative;
+	float: left;
+}
+form{
+	width: 350px;
+	height: 450px;
+	margin: 50px 25px 0px 25px;
+	position: relative;
+}
+form h1{
+	margin-bottom: 50px;
+	font-size: 30px;
+	font-weight: 100;
+ }
+form input[type=text] , input[type=password] , input[type=submit]{
+	margin-bottom: 30px;
+	height: 50px;
+	width: 100%;
+	border-radius: 30px;
+	border: none;
+	background-color: #f2f2f2;
+}
+form input[type=submit]{
+	margin-bottom: 25px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: white;
+	cursor: pointer;
+	background-image: linear-gradient(to right,#f7595a, #f35586);
+}
+form input{
+	text-indent: 20px;
+	letter-spacing: 1px;
+	font-size: 15px;
+}
+form p{
+	margin-bottom: 10px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	
+}
+.remember-me{
+	color: #f35586;
+	display: inline;
+	font-size: 17px;
+	letter-spacing: 1px;
+	font-weight: 500;
+		
+}
+form input[type=checkbox]{
+	border: none;
+}
+form a{
+	text-decoration: none;
+	color: #808080;
+	margin-left: 67px;
+	margin-top: 60px;
+	letter-spacing: 1px;
+}
+.right-side{
+	background-image: linear-gradient(to bottom right, #f7595a, #f35586);
+	width: 400px;
+	height: 500px;
+	background-color: coral;
+	position: relative;
+	float:right;
+	text-align: center;
+}
+.welcome{
+	width:300px;
+	height:160px;
+	margin: 170px 50px ;
+	position: absolute;
+}
+
+.welcome-h1, .welcome-p, .welcome-a{
+	color: white;
+	margin-bottom: 25px;
+}
+.welcome-p{
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 35px;
+}
+.welcome-a{
+	text-decoration: none;
+	border: solid 1px white;
+	padding: 12px 16px;
+	border-radius: 20px ;
+}
